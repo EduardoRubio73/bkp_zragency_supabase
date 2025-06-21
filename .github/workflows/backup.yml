@@ -11,7 +11,7 @@ jobs:
       - uses: supabase/setup-cli@v1
         with:
           version: latest
-      - run: supabase db dump --db-url "postgresql://postgres:SUA_SENHA@db.kftgzfvpblimiredvaqo.supabase.co:5432/postgres" --file backup.sql
+      - run: supabase db dump --db-url "postgresql://postgres:ZRAgency3008@db.kftgzfvpblimiredvaqo.supabase.co:5432/postgres" --file backup.sql
       - name: Upload backup
         uses: actions/upload-artifact@v4
         with:
